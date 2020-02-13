@@ -1,3 +1,7 @@
+## is-proxy
+
+[![dependency status][deps-svg]][deps-url] [![License][license-image]][license-url] [![Downloads][downloads-image]][downloads-url]
+
 Checks whether a value is a proxy object
 
 ## Install
@@ -33,7 +37,7 @@ const myProxy = new Proxy({}, {});
 const myRevocableProxy = Proxy.revocable({}, {});
 
 isProxy(myProxy); // ~> true
-isProxy(myRevocableProxy); // ~> true
+isProxy(myRevocableProxy.proxy); // ~> true
 ```
 
 #### Without global namespace pollution
@@ -45,7 +49,7 @@ const myProxy = new Proxy({}, {});
 const myRevocableProxy = Proxy.revocable({}, {});
 
 isProxy(myProxy); // ~> true
-isProxy(myRevocableProxy); // ~> true
+isProxy(myRevocableProxy.proxy); // ~> true
 ```
 
 ### Author
@@ -55,3 +59,10 @@ isProxy(myRevocableProxy); // ~> true
 [GitHub Profile](https://github.com/null096)
 
 ### MIT Licensed
+
+[deps-svg]: http://david-dm.org/inspect-js/is-proxy/status.svg
+[deps-url]: http://david-dm.org/inspect-js/is-proxy
+[license-image]: http://img.shields.io/npm/l/is-proxy.svg
+[license-url]: LICENSE
+[downloads-url]: http://npm-stat.com/charts.html?package=is-proxy
+[downloads-image]: https://img.shields.io/npm/dm/is-proxy
