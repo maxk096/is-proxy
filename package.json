@@ -1,0 +1,32 @@
+{
+  "name": "is-proxy",
+  "version": "1.0.0",
+  "description": "Checks whether a value is a proxy object",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/null096/is-proxy.git"
+  },
+  "keywords": [
+    "check",
+    "is",
+    "proxy",
+    "object",
+    "value",
+    "javascript"
+  ],
+  "author": "Max Kanaradze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/null096/is-proxy/issues"
+  },
+  "homepage": "https://github.com/null096/is-proxy#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
