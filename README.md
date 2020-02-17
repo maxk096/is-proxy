@@ -52,6 +52,16 @@ isProxy(myProxy); // ~> true
 isProxy(myRevocableProxy.proxy); // ~> true
 ```
 
+### API
+
+##### Available in `is-proxy` and `is-proxy/pure`:
+
+_isProxy(o: any): boolean_ - returns true if `o` is a proxy object, false if it is not.
+
+##### Available in `is-proxy/pure`:
+
+_Proxy_ - JavaScript [`Proxy`][proxy-url], with proxy creation tracking.
+
 ### Author
 
 **Max Kanaradze**
@@ -65,4 +75,5 @@ isProxy(myRevocableProxy.proxy); // ~> true
 [license-image]: http://img.shields.io/npm/l/is-proxy.svg
 [license-url]: LICENSE
 [downloads-url]: http://npm-stat.com/charts.html?package=is-proxy
+[proxy-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
 [downloads-image]: https://img.shields.io/npm/dm/is-proxy
