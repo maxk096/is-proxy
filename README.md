@@ -52,7 +52,7 @@ isProxy(myProxy); // ~> true
 isProxy(myRevocableProxy.proxy); // ~> true
 ```
 
-### API
+## API
 
 ##### Available in `is-proxy` and `is-proxy/pure`:
 
