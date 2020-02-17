@@ -1,6 +1,6 @@
 {
   "name": "is-proxy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Checks whether a value is a proxy object",
   "main": "index.js",
   "types": "index.d.ts",
