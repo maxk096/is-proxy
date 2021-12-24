@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/maxk096/is-proxy#readme",
   "devDependencies": {
-    "jest": "^25.2.7"
+    "jest": "^27.4.5"
   }
 }
