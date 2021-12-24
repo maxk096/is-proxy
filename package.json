@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/null096/is-proxy.git"
+    "url": "git+https://github.com/maxk096/is-proxy.git"
   },
   "keywords": [
     "check",
@@ -23,9 +23,9 @@
   "author": "Max Kanaradze",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/null096/is-proxy/issues"
+    "url": "https://github.com/maxk096/is-proxy/issues"
   },
-  "homepage": "https://github.com/null096/is-proxy#readme",
+  "homepage": "https://github.com/maxk096/is-proxy#readme",
   "devDependencies": {
     "jest": "^25.2.7"
   }

@@ -66,7 +66,7 @@ _Proxy_ - JavaScript [`Proxy`][proxy-url], with proxy creation tracking.
 
 **Max Kanaradze**
 
-[GitHub Profile](https://github.com/null096)
+[GitHub Profile](https://github.com/maxk096)
 
 ### MIT Licensed
 
